@@ -1,0 +1,93 @@
+@use 'variaveis';
+
+.footer {
+
+    background-color: rgb(14, 11, 20);
+    padding-top: 19px;
+    padding-bottom: 24px;
+
+    &__container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 26px 26px;
+        
+        .footer__columns {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            
+            li {
+                list-style:     none;
+                padding-bottom: 16px;
+                
+
+                a {
+                    text-decoration: none;
+                    cursor: pointer;
+                                
+                    &:hover {
+                        color: variaveis.$corTextoSecundario;
+                    }                
+                 }
+
+                
+            }
+                    
+        }
+ 
+    }
+
+
+    
+
+    &__logo {
+        width: 80px;
+        margin:0 auto 10px;
+        padding-top:36px;
+    }
+
+    &__links {
+        margin-bottom: 16px;
+
+
+        
+        &__item {
+            display: inline-block;
+
+            &__language_selector {
+                display: flex;
+                align-items: center;
+                
+
+                img {
+                    height: 18px;
+                    width: 18px;
+                }
+
+                select {
+                    height:28px ;
+                    cursor: pointer;
+                    background-color: transparent;
+                    border: none;
+                    color: variaveis.$corTextoPrincipal;
+
+                    &:hover {
+                        color: variaveis.$corTextoSecundario;
+                    }
+
+                    option {
+                        
+                        background-color: variaveis.$corTextoPrincipal;
+                        color: variaveis.$corDeFundo;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+    
+
+

@@ -29,7 +29,8 @@ https://clone-disney-plus-bggh.vercel.app/
 Quando adicionar uma imagem chamada **preview.png** na raiz do projeto, basta remover este comentário e utilizar:
 
 ```md
-![Preview](./preview.png)
+<img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/faca0fae-183d-4bd1-a595-33875b5a7db5" />
+
 ```
 
 ---

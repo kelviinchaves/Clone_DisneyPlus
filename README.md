@@ -29,7 +29,8 @@
 ## 📸 Preview
 
 <p align="center">
-  <img width="100%" alt="Preview do projeto" src="https://github.com/user-attachments/assets/8672a7c9-80f7-408d-853b-2e14959c6d8c" />
+  <img width="1915" height="953" alt="preview" src="https://github.com/user-attachments/assets/24a125be-eeab-4eea-b0dc-dac462a9d099" />
+
 </p>
 
 ---

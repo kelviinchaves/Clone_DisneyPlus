@@ -1,3 +1,4 @@
+@use "sass:color";
 @use 'variaveis';
 @use 'header';
 @use 'hero';
@@ -51,27 +52,50 @@ body{
 
 .text {
     @include text(18px);
+
+    @media (max-width: 768px) {
+        @include text(14px);
+}
 }
 
 .text--big {
     @include text;
+
+    @media (max-width: 768px) {
+        @include text(15px);
+    }
 }
 
 .text--small {
     @include text(12px);
+
+    @media (max-width: 768px) {
+        @include text(11px);
+}
 }
 
 
 .title--big {
     @include title(44px);
+
+    @media (max-width: 768px) {
+        @include title(26px);
+    }
 }
 
 .title {
     @include title;
+    @media (max-width: 768px) {
+        @include title(24px);
+    }
 }
 
 .title--small {
     @include title(28px);
+
+     @media (max-width: 768px) {
+        @include title(22px);
+    }
 }
 
 .link-text {
@@ -98,7 +122,7 @@ body{
     cursor: pointer;
     letter-spacing: 1px;
     &:hover {
-        background-color: color.adjust(variaveis.$corBotaoPrimario, $lighten: 3%);
+        background-color: color.scale(variaveis.$corBotaoPrimario, $lightness: 3%);
     }
 
 
@@ -107,8 +131,8 @@ body{
          border-color: variaveis.$corBotaoSecundario;
 
          &:hover {
-            background-color: color.adjust(variaveis.$corBotaoSecundario, $lighten: 3%);
-         }
+            background-color: color.scale(variaveis.$corBotaoSecundario, $lightness: 3%);
+        }
     }
 
     &--dark {
@@ -133,6 +157,11 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
+
+    @media (max-width: 768px) {
+        display: block;
+    }
     
 
     img{
@@ -143,11 +172,20 @@ body{
         padding: 2vw;
         text-align: center;
 
+        @media (max-width: 768px) {
+            display: block;
+            position: relative;
+            left: 0;
+            width: 100%;
+        }
+
         h2 {
             margin-bottom: 24px;
 
         }
     }
+
+
 
 
     &--image-full-width {
@@ -168,7 +206,17 @@ body{
             display: flex;
             flex-direction: column;
             justify-content: center;
+
+        
+
+            @media (max-width: 768px) {
+            position: relative;
+            left: 0;
+            width: 100%;
+
+        }
             
         }
     }
+
 }

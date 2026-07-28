@@ -6,8 +6,16 @@
     background-image: url("../images/hero_desktop.jpeg");
     text-align: center;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
+
+
+    @media (max-width: 768px) {
+        background-image: url("../images/hero_celular.jpeg");
+        padding-top: calc(10vw + 25px);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: -55px;
+    }
 
 
     .button {
@@ -21,6 +29,12 @@
         &__branding {
             max-width: 320px;
             margin: 0 auto 38px;
+
+            @media (max-width: 768px) {
+                max-width: 180px;
+                padding-top: 50vw;
+                background-size: contain;
+            }
         }
 
         .title--small {
@@ -43,8 +57,19 @@
             display: flex;
             justify-content: space-between;
 
+            @media (max-width: 768px) {
+                display: block;
+                
+            }
+
             &__combo {
                 width: calc(50% - 12px);
+
+                @media (max-width: 768px) {
+                width: 100%;
+                margin-bottom: 24px;
+                
+            }
                 
                 img {
                     max-height: 60px;

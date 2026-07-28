@@ -18,20 +18,19 @@
 
 ### 🌐 Projeto Online
 
-https://clone-disney-plus-bggh.vercel.app/
+<p align="center">
+  <a href="https://clone-disney-plus-bggh.vercel.app/" target="_blank">
+    <strong>🚀 Acessar Projeto Online</strong>
+  </a>
+</p>
 
 ---
 
 ## 📸 Preview
 
-> **Adicione uma captura de tela do projeto aqui.**
-
-Quando adicionar uma imagem chamada **preview.png** na raiz do projeto, basta remover este comentário e utilizar:
-
-```md
-<img width="1918" height="951" alt="image" src="https://github.com/user-attachments/assets/faca0fae-183d-4bd1-a595-33875b5a7db5" />
-
-```
+<p align="center">
+  <img width="100%" alt="Preview do projeto" src="https://github.com/user-attachments/assets/8672a7c9-80f7-408d-853b-2e14959c6d8c" />
+</p>
 
 ---
 
